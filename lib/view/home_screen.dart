@@ -126,8 +126,8 @@ class HomeState extends State<HomeScreen> {
           style: Theme.of(context).textTheme.bodyLarge,
         ),
         SizedBox(
-          child: images[model.turn]!,
           width: 30.0,
+          child: images[model.turn]!,
         ),
         Text(
           ' (Moves=${model.moves})',
